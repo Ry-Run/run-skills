@@ -1,10 +1,10 @@
-# Desktop Commander MCP：摘录与整理
+# Desktop Commander Skill：摘录与整理
 
 本文件的用途：
 - 需要查“有哪些工具/每个工具干什么/关键限制”时再加载
 - 不作为完整安装指南（安装/Remote MCP/Docker 细节可按需另查官方 README）
 
-## 工具分类与清单（按官方 README）
+## 工具分类与清单
 
 说明：不同宿主会把工具暴露为短名（如 `read_file`），或带命名空间（如 `mcp__desktop-commander__read_file`）。本技能以带命名空间为主，短名可视为同名映射。
 

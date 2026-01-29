@@ -1,13 +1,13 @@
 ---
-name: desktop-commander-mcp
+name: desktop-commander-skill
 description: 使用 Desktop Commander MCP（常见为 `mcp__desktop-commander__*` 工具）进行本地文件/目录读写与搜索、精确文本替换、Excel/PDF 处理、启动与交互长生命周期进程（Python/Node/SSH/DB）、查看与终止进程/会话、读取工具调用历史与用量统计、管理服务器配置。适用于：需要“在机器上执行操作”的任务（读写代码/配置、批量改文件、搜索代码、分析 CSV/Excel、生成/修改 PDF、跑命令并持续读取输出、交互式 REPL 调试/数据分析）时。
 ---
 
-# Desktop Commander MCP
+# Desktop Commander Skill
 
 ## 快速上手
 
-目标：用 Desktop Commander MCP 把“文件/进程/搜索/编辑”变成可验证、可回放、可控风险的工具调用，而不是把整机当黑盒。
+目标：用 Desktop Commander Skill 把“文件/进程/搜索/编辑”变成可验证、可回放、可控风险的工具调用，而不是把整机当黑盒。
 
 最常用的 4 个入口：
 - 文件读取：优先 `mcp__desktop-commander__read_file`（支持分页、负 offset 类 tail、PDF/图片/Excel/URL）。
@@ -77,4 +77,4 @@ description: 使用 Desktop Commander MCP（常见为 `mcp__desktop-commander__*
 
 ## 参考资料
 
-- 摘录与工具清单：`skills/desktop-commander-mcp/references/desktop-commander-mcp-official.md`
+- 摘录与工具清单：`skills/desktop-commander-mcp/references/desktop-commander-skill.md`
