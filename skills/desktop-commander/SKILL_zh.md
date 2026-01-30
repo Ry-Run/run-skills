@@ -15,7 +15,7 @@ description: 使用 Desktop Commander MCP（常见为 `mcp__desktop-commander__*
 - 大范围改动：用 `mcp__desktop-commander__write_file` 分块写入（遵守 `fileWriteLineLimit`）。
 - 长命令/交互：用 `mcp__desktop-commander__start_process` + `mcp__desktop-commander__interact_with_process` + `mcp__desktop-commander__read_process_output`。
 
-更完整的工具清单与要点见：`skills/desktop-commander-zh/references/desktop-commander.md`。
+更完整的工具清单与要点见：`skills/desktop-commander/references/desktop-commander_zh.md`。
 
 ## 工作流决策树
 
@@ -77,4 +77,4 @@ description: 使用 Desktop Commander MCP（常见为 `mcp__desktop-commander__*
 
 ## 参考资料
 
-- 摘录与工具清单：`skills/desktop-commander-zh/references/desktop-commander.md`
+- 摘录与工具清单：`skills/desktop-commander/references/desktop-commander_zh.md`

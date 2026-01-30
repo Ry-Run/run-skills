@@ -69,7 +69,7 @@ Tip: Most tools accept `projectPath`. When known, always pass it to reduce ambig
 
 - `reformat_file`
   - Reformat file via IDE formatter
-  - Params: `Path` (relative), `projectPath`
+  - Params: `path` (relative), `projectPath`
 
 ### Search
 - `search_in_files_by_text`
@@ -84,4 +84,3 @@ Tip: Most tools accept `projectPath`. When known, always pass it to reduce ambig
   - Runs a shell command in the IDE integrated terminal
   - Constraints (as documented): checks running state before collecting output; output capped (2000 lines); timeouts are reported; requires confirmation unless Brave Mode is enabled
   - Params: `command`, `executeInShell`, `reuseExistingTerminalWindow`, `timeout`, `maxLinesCount`, `truncateMode`, `projectPath`
-

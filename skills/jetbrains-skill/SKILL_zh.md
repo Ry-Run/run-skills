@@ -9,7 +9,7 @@ description: 使用 JetBrains IDE（IntelliJ IDEA 2025.2+）内置的 MCP Server
 
 目标：把 JetBrains IDE 的“索引、检查、重构、运行配置、集成终端”能力暴露给外部客户端使用，并保持可控、可审计、可回滚。
 
-摘录与工具列表见：`skills/jetbrains-skill-zh/references/jetbrains-skill.md`。
+摘录与工具列表见：`skills/jetbrains-skill/references/jetbrains-skill_zh.md`。
 
 ## 连接与模式
 
@@ -67,4 +67,4 @@ IDE 支持开启 “无需确认即可运行 shell 命令或运行配置（Brave
 运行配置用 `execute_run_configuration`，并把 `timeout` 设置为合理值（毫秒）。终端命令用 `execute_terminal_command`，注意其输出截断/行数限制，必要时把命令改成“输出到文件再读取”。
 
 ## 参考资料
-- 摘录与工具列表：`skills/jetbrains-skill-zh/references/jetbrains-skill.md`
+- 摘录与工具列表：`skills/jetbrains-skill/references/jetbrains-skill_zh.md`
