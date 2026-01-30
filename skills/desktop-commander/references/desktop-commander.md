@@ -1,10 +1,8 @@
-# Desktop Commander MCP: official notes (condensed)
-
-Source: `source/Desktop-Commander-MCP-README.md` in this repo.
+# Desktop Commander Skill: notes (condensed)
 
 Use this reference when you need to confirm tool names, categories, or the key security limitations.
 
-## Tool categories (from the official README)
+## Tool categories
 
 Note: depending on the host client, tools may appear as short names (e.g. `read_file`) or namespaced (e.g. `mcp__desktop-commander__read_file`). This skill primarily uses the namespaced form.
 
@@ -43,9 +41,9 @@ Note: depending on the host client, tools may appear as short names (e.g. `read_
 - `get_recent_tool_calls`: recent tool call history (args + outputs).
 - `give_feedback_to_desktop_commander`: open feedback form.
 
-## Officially stated security limitations (important)
+## security limitations (important)
 
 - `allowedDirectories` only restricts filesystem tool operations, not terminal commands. Terminal commands can still access files outside `allowedDirectories`.
-- The official README recommends making config changes in a separate chat, to avoid accidentally expanding access while solving unrelated tasks.
+- recommends making config changes in a separate chat, to avoid accidentally expanding access while solving unrelated tasks.
 - `fileWriteLineLimit` exists to encourage small, chunked writes (default 50 lines) to reduce token waste and avoid losing work when messages truncate.
 
