@@ -10,5 +10,5 @@ Run Skills is a project for managing and distributing Gemini CLI skills. Each sk
 
 | Name | Description | Installation |
 | :--- | :--- | :--- |
-| [desktop-commander](skills/desktop-commander/SKILL.md) | Local file/directory operations, precise text replacement, process management, search, and Excel/PDF processing via Desktop Commander MCP. | `npx skills add https://github.com/Ry-Run/run-skills/blob/main/skills/desktop-commander` |
-| [jetbrains-skill](skills/jetbrains-skill/SKILL.md) | Drive JetBrains IDE actions (IntelliJ 2025.2+): run configurations, terminal commands, diagnostics, refactoring, and indexed search. | `npx skills add https://github.com/Ry-Run/run-skills/blob/main/skills/jetbrains-skill` |
+| [desktop-commander](skills/desktop-commander/SKILL.md) | Local file/directory operations, precise text replacement, process management, search, and Excel/PDF processing via Desktop Commander MCP. | `npx skills add https://github.com/ry-run/run-skills --skill desktop-commander` |
+| [jetbrains-skill](skills/jetbrains-skill/SKILL.md) | Drive JetBrains IDE actions (IntelliJ 2025.2+): run configurations, terminal commands, diagnostics, refactoring, and indexed search. | `npx skills add https://github.com/ry-run/run-skills --skill jetbrains-skill` |
