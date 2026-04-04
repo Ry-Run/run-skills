@@ -1,0 +1,4 @@
+interface:
+  display_name: "Playwright Skill"
+  short_description: "Automate browser flows and end-to-end interactions"
+  default_prompt: "Use $playwright-skill to reproduce a browser flow, inspect the page state, and capture evidence."

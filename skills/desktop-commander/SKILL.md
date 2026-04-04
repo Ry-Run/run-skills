@@ -1,6 +1,6 @@
 ---
 name: desktop-commander
-description: "Use Desktop Commander MCP (typically tools like `mcp__desktop-commander__*`) to manage local files and long-running processes: read/write/search files, apply precise edits, work with Excel/PDFs, run terminal commands and interact with REPLs (Python/Node/SSH/DB), inspect/terminate processes, and review tool call history. Use when the task requires doing real work on the machine (editing code/configs, searching a repo, analyzing CSV/Excel, generating/modifying PDFs, running commands with streaming output)."
+description: "Use Desktop Commander MCP (typically tools like `mcp__desktop-commander__*`) for local files, precise edits, search, and long-running processes on the machine. Use it when the task requires direct local execution, rather than IDE-only actions or remote platform operations."
 ---
 
 # Desktop Commander

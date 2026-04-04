@@ -1,0 +1,4 @@
+interface:
+  display_name: "Grok Search"
+  short_description: "Plan and execute multi-source web research"
+  default_prompt: "Use $grok-search to plan a multi-step web research task, and explicitly state which Grok model is being used if it is known."

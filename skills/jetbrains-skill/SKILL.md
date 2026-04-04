@@ -1,6 +1,6 @@
 ---
 name: jetbrains-skill
-description: "Use the JetBrains IDE MCP Server (IntelliJ IDEA 2025.2+) to let an external client drive IDE-backed actions: run Run Configurations, execute commands in the IDE terminal, read/create/edit project files, search via IDE indexes (text/regex), retrieve code inspections for a file, fetch symbol info, perform rename refactoring, list modules/dependencies/repos, open files in the editor, and reformat code. Use when you want IDE-grade indexing/refactoring/inspection instead of raw shell scripting."
+description: "Use the JetBrains IDE MCP Server (IntelliJ IDEA 2025.2+) for IDE-backed indexing, inspections, symbol info, project file operations, and structural refactoring. Use it when you need exact project-aware analysis or safe IDE refactors, rather than broad semantic repository discovery."
 ---
 
 # JetBrains Skill

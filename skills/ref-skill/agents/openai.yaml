@@ -1,0 +1,4 @@
+interface:
+  display_name: "Ref Skill"
+  short_description: "Search documentation sources and read exact pages"
+  default_prompt: "Use $ref-skill to find the right documentation page first and then read the exact URL."

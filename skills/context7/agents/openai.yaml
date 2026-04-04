@@ -1,0 +1,4 @@
+interface:
+  display_name: "Context7"
+  short_description: "Look up versioned library and framework documentation"
+  default_prompt: "Use $context7 to fetch the latest documentation and examples for the library or framework in question."

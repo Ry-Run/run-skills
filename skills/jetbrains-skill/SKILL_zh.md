@@ -1,6 +1,6 @@
 ---
 name: jetbrains-skill
-description: 使用 JetBrains IDE（IntelliJ IDEA 2025.2+）内置的 MCP Server，让外部客户端（Claude Desktop、Cursor、VS Code 等）通过 IDE 提供的工具与项目交互：运行 Run Configuration、在 IDE 终端执行命令、读取/创建/修改项目文件、用 IDE 的索引搜索文本/正则、获取文件检查问题、查询符号信息、执行 rename 重构、列出模块/依赖、打开文件并格式化等。适用于：希望“让 IDE 代替命令行/脚本做代码理解与重构”的场景（尤其是跨语言工程、需要索引/重构/检查能力时）。
+description: 使用 JetBrains IDE（IntelliJ IDEA 2025.2+）内置的 MCP Server 做 IDE 支撑的索引、检查、符号分析、项目文件操作与结构化重构。适合需要项目感知的精确分析或安全重构，而不是先做宽泛语义发现的场景。
 ---
 
 # JetBrains Skill

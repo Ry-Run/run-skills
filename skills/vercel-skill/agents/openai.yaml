@@ -1,0 +1,4 @@
+interface:
+  display_name: "Vercel Skill"
+  short_description: "Inspect Vercel projects, deployments, logs, and previews"
+  default_prompt: "Use $vercel-skill to inspect Vercel deployments, logs, preview access, and project state."

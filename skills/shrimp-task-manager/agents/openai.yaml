@@ -1,0 +1,4 @@
+interface:
+  display_name: "Shrimp Task Manager"
+  short_description: "Plan, split, track, and verify engineering tasks"
+  default_prompt: "Use $shrimp-task-manager to analyze a large task, split it into tracked work items, and verify completion."

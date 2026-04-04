@@ -1,0 +1,4 @@
+interface:
+  display_name: "GitHub Skill"
+  short_description: "Operate GitHub repos, issues, pull requests, and reviews"
+  default_prompt: "Use $github-skill to inspect remote GitHub state or update issues, pull requests, and review comments."

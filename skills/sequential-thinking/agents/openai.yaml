@@ -1,0 +1,4 @@
+interface:
+  display_name: "Sequential Thinking"
+  short_description: "Structure complex reasoning with explicit thought steps"
+  default_prompt: "Use $sequential-thinking to break a complex analysis into explicit, revisable reasoning steps."

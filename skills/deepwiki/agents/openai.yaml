@@ -1,0 +1,4 @@
+interface:
+  display_name: "DeepWiki"
+  short_description: "Explore repository overviews and architecture with DeepWiki"
+  default_prompt: "Use $deepwiki to pull a quick overview of the external repository before diving into source code."

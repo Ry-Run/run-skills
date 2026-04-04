@@ -1,0 +1,4 @@
+interface:
+  display_name: "Chrome DevTools"
+  short_description: "Debug pages with browser logs, traces, and audits"
+  default_prompt: "Use $chrome-devtools to inspect the page, check console and network activity, and verify browser behavior."

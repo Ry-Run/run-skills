@@ -1,0 +1,4 @@
+interface:
+  display_name: "Figma Skill"
+  short_description: "Work with Figma files, design systems, and canvas edits"
+  default_prompt: "Use $figma-skill to inspect a Figma file, reuse design system assets, or update the canvas directly."

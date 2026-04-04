@@ -1,0 +1,4 @@
+interface:
+  display_name: "Desktop Commander"
+  short_description: "Operate local files, search, edits, and processes"
+  default_prompt: "Use $desktop-commander to inspect files, edit content safely, and run or monitor local processes."

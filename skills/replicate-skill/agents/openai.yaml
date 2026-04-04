@@ -1,0 +1,4 @@
+interface:
+  display_name: "Replicate Skill"
+  short_description: "Run Replicate predictions, trainings, and deployments"
+  default_prompt: "Use $replicate-skill to inspect model schemas, run predictions, and manage Replicate jobs."

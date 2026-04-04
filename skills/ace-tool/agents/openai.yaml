@@ -1,0 +1,4 @@
+interface:
+  display_name: "Ace Tool"
+  short_description: "Discover code paths with semantic repository search"
+  default_prompt: "Use $ace-tool to locate the most relevant code paths and related modules before editing."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "JetBrains Skill"
+  short_description: "Use IDE indexing, inspections, search, and refactoring"
+  default_prompt: "Use $jetbrains-skill to inspect project structure, run IDE-backed searches, and apply safe refactorings."
