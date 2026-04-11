@@ -1,0 +1,4 @@
+interface:
+  display_name: "PPT Workflow Builder"
+  short_description: "Generate PPT decks through a repeatable workflow"
+  default_prompt: "Use $ppt-workflow-builder to create a slide deck workflow from a topic or source material."

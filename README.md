@@ -16,11 +16,12 @@ Run Skills is a project for managing and distributing Gemini CLI skills. Each sk
 | [deepwiki](skills/deepwiki/SKILL.md) | Quick repository documentation lookup from DeepWiki for open source project overviews and repo-level concepts. | `npx skills add https://github.com/ry-run/run-skills --skill deepwiki` |
 | [desktop-commander](skills/desktop-commander/SKILL.md) | Local file/directory operations, precise text replacement, process management, search, and Excel/PDF processing via Desktop Commander MCP. | `npx skills add https://github.com/ry-run/run-skills --skill desktop-commander` |
 | [figma-skill](skills/figma-skill/SKILL.md) | Real Figma file access for design-to-code, canvas edits, design system search, screenshots, Code Connect, and web capture. | `npx skills add https://github.com/ry-run/run-skills --skill figma-skill` |
-| [frontend-dev-plain-web](skills/frontend-dev-plain-web/SKILL.md) | Lightweight workflow for building plain HTML/CSS/JS webpages from requirements with doc lookup, local implementation, browser verification, and focused debugging. | `npx skills add https://github.com/ry-run/run-skills --skill frontend-dev-plain-web` |
+| [frontend-dev-plain-web](skills/frontend-dev-plain-web/SKILL.md) | Lightweight workflow for building plain HTML/CSS webpages first, adding JavaScript only when needed, sourcing real images, and running browser verification plus required DevTools checks. | `npx skills add https://github.com/ry-run/run-skills --skill frontend-dev-plain-web` |
 | [github-skill](skills/github-skill/SKILL.md) | Direct GitHub repository, issue, PR, review, release, and search operations against remote state. | `npx skills add https://github.com/ry-run/run-skills --skill github-skill` |
 | [grok-search](skills/grok-search/SKILL.md) | Planned multi-phase web research with explicit intent, complexity, sub-query, and execution mapping. | `npx skills add https://github.com/ry-run/run-skills --skill grok-search` |
 | [jetbrains-skill](skills/jetbrains-skill/SKILL.md) | Drive JetBrains IDE actions (IntelliJ 2025.2+): run configurations, terminal commands, diagnostics, refactoring, and indexed search. | `npx skills add https://github.com/ry-run/run-skills --skill jetbrains-skill` |
 | [playwright-skill](skills/playwright-skill/SKILL.md) | Deterministic browser automation for reproducing user flows, interacting with forms, and capturing browser diagnostics. | `npx skills add https://github.com/ry-run/run-skills --skill playwright-skill` |
+| [ppt-workflow-builder](skills/ppt-workflow-builder/SKILL.md) | Workflow-first slide deck creation from a topic or source material, using outline, research, planning draft, and SVG-first slide production before final PPT assembly. | `npx skills add https://github.com/ry-run/run-skills --skill ppt-workflow-builder` |
 | [ref-skill](skills/ref-skill/SKILL.md) | Documentation-first search and page reading for official docs, API references, and connected documentation sources. | `npx skills add https://github.com/ry-run/run-skills --skill ref-skill` |
 | [replicate-skill](skills/replicate-skill/SKILL.md) | Replicate model, prediction, training, deployment, and file workflows for hosted AI operations. | `npx skills add https://github.com/ry-run/run-skills --skill replicate-skill` |
 | [sequential-thinking](skills/sequential-thinking/SKILL.md) | Explicit step-by-step reasoning support with revisions and branches for complex analysis and planning. | `npx skills add https://github.com/ry-run/run-skills --skill sequential-thinking` |
@@ -31,9 +32,13 @@ Run Skills is a project for managing and distributing Gemini CLI skills. Each sk
 
 ### `frontend-dev-plain-web`
 
-- Use it for landing pages, static pages, and simple interactive pages that should stay in plain HTML, CSS, and JavaScript.
+- Use it for landing pages, static pages, and simple interactive pages that should stay HTML/CSS-first and only add JavaScript when clearly needed.
 - Main path: `context7` for official docs, `ref-skill` for GitHub/issues/real-world code, `grok-search` for concepts, tradeoffs, best practices, hard-to-find questions, and non-technical research.
-- Build locally with `desktop-commander`, verify with `playwright-skill`, and only step into `chrome-devtools` when you need deeper debugging.
+- Default to HTML and CSS first. Only add JavaScript when the requirements clearly need interaction.
+- When the page needs imagery, search for real images with `grok-search`, download them locally, validate that the files actually work, and reference only local image paths from HTML or CSS.
+- Build locally with `desktop-commander`, verify with `playwright-skill`, and always run `chrome-devtools` as part of the inspection pass.
+- If an image candidate fails, replace it and retry; do not silently fall back to solid-color or gradient blocks for image-led sections.
+- Check that the footer is pushed to the bottom even on short pages, with no large empty space underneath.
 - If installed, `frontend-design` and `uncodixfy` improve layout and visual quality; `adapt` and `polish` stay optional.
 - When `grok-search` is used and the active Grok model is known, state that model explicitly.
 
@@ -53,6 +58,7 @@ Run Skills is a project for managing and distributing Gemini CLI skills. Each sk
 | Research across multiple web sources with an explicit search plan | `grok-search` | `deepwiki` |
 | Work directly with local files, processes, PDFs, or Excel | `desktop-commander` | `github-skill`, `vercel-skill` |
 | Build a plain HTML/CSS/JS webpage from requirements or references | `frontend-dev-plain-web` | stitching the workflow together manually |
+| Create a PPT deck through outline, research, planning, and slide-generation stages | `ppt-workflow-builder` | jumping straight into slide-by-slide writing |
 | Operate on remote GitHub state such as PRs, issues, reviews, and releases | `github-skill` | `desktop-commander` |
 | Work against real Figma files, nodes, and design systems | `figma-skill` | `chrome-devtools`, `playwright-skill` |
 | Inspect deployments, logs, and preview state on Vercel | `vercel-skill` | `desktop-commander` |
